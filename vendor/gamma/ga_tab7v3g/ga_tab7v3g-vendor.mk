@@ -216,3 +216,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     $(LOCAL_PATH)/proprietary/etc/bluetooth/auto_pair_blacklist.conf:system/etc/bluetooth/auto_pair_blacklist.conf \
     $(LOCAL_PATH)/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf
+
+# ============================================================================
+# Graphics/Display
+# ============================================================================
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/libMali.so:system/lib/libMali.so \
+    $(LOCAL_PATH)/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
+    $(LOCAL_PATH)/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
+    $(LOCAL_PATH)/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
+    $(LOCAL_PATH)/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
+    $(LOCAL_PATH)/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/gralloc.mt6572.so:system/lib/hw/gralloc.mt6572.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/hwcomposer.mt6572.so:system/lib/hw/hwcomposer.mt6572.so
