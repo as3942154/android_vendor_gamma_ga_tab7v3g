@@ -107,7 +107,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libbluetoothdrv.so:system/lib/libbluetoothdrv.so \
     $(LOCAL_PATH)/proprietary/lib/libbluetoothem_mtk.so:system/lib/libbluetoothem_mtk.so \
-    $(LOCAL_PATH)/proprietary/lib/libbluetooth_jni.so:system/lib/libbluetooth_jni.so \
     $(LOCAL_PATH)/proprietary/lib/libbluetooth_mtk.so:system/lib/libbluetooth_mtk.so \
     $(LOCAL_PATH)/proprietary/lib/libbluetooth_relayer.so:system/lib/libbluetooth_relayer.so \
     $(LOCAL_PATH)/proprietary/lib/libbrctrler.so:system/lib/libbrctrler.so \
