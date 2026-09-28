@@ -206,3 +206,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libmtk_vt_utils.so:system/lib/libmtk_vt_utils.so \
     $(LOCAL_PATH)/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
     $(LOCAL_PATH)/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so
+
+# ============================================================================
+# Bluetooth Configuration
+# ============================================================================
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
+    $(LOCAL_PATH)/proprietary/etc/bluetooth/btconfig.xml:system/etc/bluetooth/btconfig.xml \
+    $(LOCAL_PATH)/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
+    $(LOCAL_PATH)/proprietary/etc/bluetooth/auto_pair_blacklist.conf:system/etc/bluetooth/auto_pair_blacklist.conf \
+    $(LOCAL_PATH)/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf
