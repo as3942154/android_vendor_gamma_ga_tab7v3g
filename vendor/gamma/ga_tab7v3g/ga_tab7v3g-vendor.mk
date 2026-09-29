@@ -209,11 +209,11 @@ PRODUCT_COPY_FILES += \
 # ============================================================================
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    $(LOCAL_PATH)/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+    $(LOCAL_PATH)/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf
 
 # ============================================================================
 # MediaTek A-GPS
 # ============================================================================
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd
-    $(LOCAL_PATH)/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-    $(LOCAL_PATH)/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf
