@@ -148,10 +148,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libmp4enc_xb.ca7.so:system/lib/libmp4enc_xb.ca7.so
 
 # ============================================================================
-# Firmware currently present in the vendor repository
+# Firmware
 # ============================================================================
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg
+    $(LOCAL_PATH)/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
+    $(LOCAL_PATH)/proprietary/etc/firmware/catcher_filter_1_wg_n.bin:system/etc/firmware/catcher_filter_1_wg_n.bin \
+    $(LOCAL_PATH)/proprietary/etc/firmware/modem_1_wg_n.img:system/etc/firmware/modem_1_wg_n.img
 
 # ============================================================================
 # Sensors
