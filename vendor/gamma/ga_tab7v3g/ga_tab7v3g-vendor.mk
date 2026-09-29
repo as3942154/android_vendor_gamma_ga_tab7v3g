@@ -21,6 +21,19 @@ LOCAL_PATH := vendor/gamma/ga_tab7v3g
 # W706-V30YDM8GN8GEN-WG15.N70H.LOW
 
 # ============================================================================
+# RIL / Modem Libraries
+# ============================================================================
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
+    $(LOCAL_PATH)/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
+    $(LOCAL_PATH)/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    $(LOCAL_PATH)/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
+    $(LOCAL_PATH)/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
+    $(LOCAL_PATH)/proprietary/lib/librilutils.so:system/lib/librilutils.so \
+    $(LOCAL_PATH)/proprietary/lib/libril_dongle.so:system/lib/libril_dongle.so \
+    $(LOCAL_PATH)/proprietary/lib/libutilrilmtk.so:system/lib/libutilrilmtk.so
+
+# ============================================================================
 # Graphics / Display
 # ============================================================================
 PRODUCT_COPY_FILES += \
