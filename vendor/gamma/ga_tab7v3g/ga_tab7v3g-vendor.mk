@@ -96,6 +96,45 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf
 
 # ============================================================================
+# MediaTek OMX Codec Libraries
+# ============================================================================
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxAacDec.so:system/lib/libMtkOmxAacDec.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxAacEnc.so:system/lib/libMtkOmxAacEnc.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxAmrEnc.so:system/lib/libMtkOmxAmrEnc.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxAMRNBDec.so:system/lib/libMtkOmxAMRNBDec.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxAMRWBDec.so:system/lib/libMtkOmxAMRWBDec.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxApeDec.so:system/lib/libMtkOmxApeDec.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxAwbEnc.so:system/lib/libMtkOmxAwbEnc.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxG711Dec.so:system/lib/libMtkOmxG711Dec.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxGsmDec.so:system/lib/libMtkOmxGsmDec.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxVorbisDec.so:system/lib/libMtkOmxVorbisDec.so \
+    $(LOCAL_PATH)/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so
+
+# ============================================================================
+# MediaTek Hardware Video Codec Libraries
+# ============================================================================
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/libh264dec_customize.so:system/lib/libh264dec_customize.so \
+    $(LOCAL_PATH)/proprietary/lib/libh264dec_xa.ca7.so:system/lib/libh264dec_xa.ca7.so \
+    $(LOCAL_PATH)/proprietary/lib/libh264dec_xb.ca7.so:system/lib/libh264dec_xb.ca7.so \
+    $(LOCAL_PATH)/proprietary/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
+    $(LOCAL_PATH)/proprietary/lib/libh264enc_sb.ca7.so:system/lib/libh264enc_sb.ca7.so \
+    $(LOCAL_PATH)/proprietary/lib/libmp4dec_customize.so:system/lib/libmp4dec_customize.so \
+    $(LOCAL_PATH)/proprietary/lib/libmp4dec_sa.ca7.so:system/lib/libmp4dec_sa.ca7.so \
+    $(LOCAL_PATH)/proprietary/lib/libmp4dec_sb.ca7.so:system/lib/libmp4dec_sb.ca7.so \
+    $(LOCAL_PATH)/proprietary/lib/libmp4enc_xa.ca7.so:system/lib/libmp4enc_xa.ca7.so \
+    $(LOCAL_PATH)/proprietary/lib/libmp4enc_xb.ca7.so:system/lib/libmp4enc_xb.ca7.so
+
+# ============================================================================
 # Firmware currently present in the vendor repository
 # ============================================================================
 PRODUCT_COPY_FILES += \
