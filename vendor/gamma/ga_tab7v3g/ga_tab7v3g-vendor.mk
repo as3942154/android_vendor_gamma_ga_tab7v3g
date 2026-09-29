@@ -176,3 +176,10 @@ PRODUCT_COPY_FILES += \
 # ============================================================================
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
+
+# ============================================================================
+# GPS / Location Libraries
+# ============================================================================
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/liblocSDK_2_5OEM.so:system/lib/liblocSDK_2_5OEM.so \
+    $(LOCAL_PATH)/proprietary/lib/libnetworklocation.so:system/lib/libnetworklocation.so
