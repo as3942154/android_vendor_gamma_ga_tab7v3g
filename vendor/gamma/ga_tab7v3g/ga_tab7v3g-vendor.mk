@@ -164,3 +164,9 @@ PRODUCT_COPY_FILES += \
 # ============================================================================
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so
+
+# ============================================================================
+# Power
+# ============================================================================
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so
