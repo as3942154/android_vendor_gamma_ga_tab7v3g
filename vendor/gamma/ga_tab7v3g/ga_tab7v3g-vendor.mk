@@ -183,3 +183,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/liblocSDK_2_5OEM.so:system/lib/liblocSDK_2_5OEM.so \
     $(LOCAL_PATH)/proprietary/lib/libnetworklocation.so:system/lib/libnetworklocation.so
+
+# ============================================================================
+# Wi-Fi Userspace Libraries
+# ============================================================================
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/libpalwlan_mtk.so:system/lib/libpalwlan_mtk.so \
+    $(LOCAL_PATH)/proprietary/lib/libwifitest.so:system/lib/libwifitest.so \
+    $(LOCAL_PATH)/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
+    $(LOCAL_PATH)/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so
