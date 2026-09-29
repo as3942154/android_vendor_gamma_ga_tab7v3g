@@ -170,3 +170,9 @@ PRODUCT_COPY_FILES += \
 # ============================================================================
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so
+
+# ============================================================================
+# GPS
+# ============================================================================
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so
