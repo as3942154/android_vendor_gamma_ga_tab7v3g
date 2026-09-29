@@ -201,3 +201,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/wpa_cli:system/bin/wpa_cli \
     $(LOCAL_PATH)/proprietary/bin/wlan_loader:system/bin/wlan_loader \
     $(LOCAL_PATH)/proprietary/bin/wmt_loader:system/bin/wmt_loader
+
+# ============================================================================
+# Wi-Fi Configuration
+# ============================================================================
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    $(LOCAL_PATH)/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
+    $(LOCAL_PATH)/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf
