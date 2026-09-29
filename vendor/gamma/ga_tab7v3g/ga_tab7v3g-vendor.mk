@@ -192,3 +192,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libwifitest.so:system/lib/libwifitest.so \
     $(LOCAL_PATH)/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
     $(LOCAL_PATH)/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so
+
+# ============================================================================
+# Wi-Fi / Wireless Utilities
+# ============================================================================
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
+    $(LOCAL_PATH)/proprietary/bin/wpa_cli:system/bin/wpa_cli \
+    $(LOCAL_PATH)/proprietary/bin/wlan_loader:system/bin/wlan_loader \
+    $(LOCAL_PATH)/proprietary/bin/wmt_loader:system/bin/wmt_loader
