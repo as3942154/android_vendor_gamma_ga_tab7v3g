@@ -152,3 +152,9 @@ PRODUCT_COPY_FILES += \
 # ============================================================================
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg
+
+# ============================================================================
+# Sensors
+# ============================================================================
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
